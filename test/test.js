@@ -10,6 +10,10 @@ describe('Person class: create a person',() => {
     it('The person should be a type of "object", and an instance of the "person" class',() => {
         expect(typeof gbenga).to.eql('object');
     });
+    it('should return "24"',() => {
+        expect(gbenga.age).to.eql(24);
+    });
+
 
  
 })
